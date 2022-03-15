@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Conflict of Tanks.io is a competitive game! Compete with other tanks to obtain victory!">
+    <meta name="canonical" content="https://conflictoftanks.tk">
+  <meta>
+    <meta name="copyright" content="Conflict of Tanks">
+    <meta name="distribution" content="Global">
+    <meta name="generator" content="Conflict of Tanks">
+    <meta name="keywords" content="conflictoftanks, conflict of tanks, cot, COT, C.O.T, c.o.t., cot.tk,   conflict of tanks.tk, .io games, online games, conflictoftanks.tk, conflict tanks , conflicttanks, war tanks, tankconflicts, tank games online, online tank games, tanks, games, online games, video games, tank mmo, mmo games, online mmo games, online video games, tank video games, games, .io, best io games, tank game, tank games, WOT.TK, conflictoftanks.tk, conflictoftankstk, conflictoftanks.tk, conflict of tanks tk, conflict of tanks .tk, conflictoftanks .tk ">
+    <meta name="language" content="en">
+    <meta name="news_keywords" content="conflictoftanks, conflict of tanks, cot, COT, C.O.T, c.o.t., cot.tk,   conflict of tanks.tk, .io games, online games, conflictoftanks.tk, conflict tanks , conflicttanks, war tanks, tankconflicts, tank games online, online tank games, tanks, games, online games, video games, tank mmo, mmo games, online mmo games, online video games, tank video games, games, .io, best io games, tank game, tank games, WOT.TK, conflictoftanks.tk, conflictoftankstk, conflictoftanks.tk, conflict of tanks tk, conflict of tanks .tk, conflictoftanks .tk ">
+    <meta name="rating" content="general">
+    <meta name="revisit-after" content="1 day">
+    <meta name="web-author" content="War of Tanks">
+    <meta name="robots" content= "index, follow"></meta>
+    <title>Conflict of Tanks!</title>
+    <link href="/assets/css/index.css" rel="stylesheet" type="text/css" />
+    <link href="/assets/css/imports.css" rel="stylesheet" type="text/css" />
+    <link href="/assets/css/animations.css" rel="stylesheet" type="text/css" />
+    <link href="/assets/css/variables.css" rel="stylesheet" type="text/css" />
+    <script src="/scripts/index.js"></script>
+    <script src="/scripts/elements.js"></script>
+    <script src="/scripts/config.js"></script>
+    <script src="/scripts/definitions.js"></script>
+    <script src="/scripts/variants.js"></script>
+    <script src="/scripts/accounts.js"></script>
+  </head>
+  
+  <body onload="loadConfig('100')" id="body" class="body">
+    <div id="player-info" class="player-info">
+      <h1 id="homepageTitle"></h1>
+      <input id="playerName" text-align="center" placeholder="Enter Nickname" maxlength="20"></input>
+      <button id="playButton"></button>
+      <button id="loginButton" onclick="displayPopup('login')">Login</button>
+      <br>
+      <br>
+    
+    <div id="dark-wrapper" style="background-color:black;opacity:50%;width:100%;height:100%;position:absolute;top:-2.5px;left:-2.5px;"></div>
+
+    <div id="login-popup">
+      <form>
+        <label class="account-input-label">
+          Username
+        </label>
+        <input type="text" class="account-input" maxlength="20">
+        </input>
+        <br>
+        <br>
+        <br>
+        <label class="account-input-label">
+          Password 
+        </label>
+        <input type="password">
+        </input>
+        <br>
+        <br>
+        <button id="forgotPassword" onclick="account('forgot', 'password')">Forgot Password</button>
+      </form>
+    </div>
+   
+<button id="signupButton" 
+onclick="displayPopup('signup')">Sign Up</button>
+  <br>
+    
+      <div id="signup-popup">
+      <form>
+      </form>
+    </div>
+      
+<button id="Menu"
+onclick="displayPopup('Menu')">Menu</button>
+
+      <div id="menu-popup">
+      
+    </div>
+  </body>
+</html>

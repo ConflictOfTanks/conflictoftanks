@@ -1,0 +1,24 @@
+/*
+  Create variable: --name: value;
+  Use variable: var(--name);
+*/
+
+:root {
+  --pageBackgroundColor: black;
+  --pageColor: white;
+  --pagePadding: 10%;
+  --pageTextAlignment: center;
+  --pageFontFamily: Poppins;
+  /******************/
+  --buttonBackgroundColor: #005325;
+  --buttonColor: white;
+  --buttonPadding: 10px;
+  --buttonFontFamily: Poppins;
+  --buttonTextAlignment: center;
+  /******************/
+  --headingFontFamily: Montserrat;
+  /******************/
+  --inputBackgroundColor: #005526;
+  --inputBackgroundColorLighter: #005526;
+  --inputColor: white;
+}

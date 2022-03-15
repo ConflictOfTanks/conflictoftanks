@@ -1,0 +1,61 @@
+* {
+  font-family: Poppins;
+  outline: none;
+}
+body {
+  background-color: var(--pageBackgroundColor);
+  color: var(--pageColor);
+  text-align: var(--pageTextAlignment);
+}
+button {
+  border: none;
+  background-color: var(--buttonBackgroundColor);
+  color: var(--buttonColor);
+  font-family: var(--buttonFontFamily);
+  font-size: 10px;
+  padding: var(--buttonPadding);
+  border-radius: 10px;
+  text-align: var(--buttonTextAlignment);
+  transition: border-radius 10px;
+}
+button:hover {
+  border-radius: 10px;
+}
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--headingFontFamily);
+  font-weight: 900;
+}
+input {
+  background-color: var(--inputBackgroundColor);
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+  border-width: #ff0000;
+  color: var(--inputColor);
+  transition: background-color 1s, border-radius 2s;
+}
+input:hover, input:active, input:focus {
+  background-color: #2d872c;
+  border-radius: 100px;
+}
+input:placeholder {
+  color: white;
+}
+a {
+  color: #2d872c;
+  text-decoration: none;
+  transition: color 1s;
+}
+a:hover, a:active, a:focus {
+  color: #2d872c;
+}
+div#login-popup {
+  display: none;
+  position: absolute;
+  width: 50%;
+  height: 50%;
+  top: 25%;
+  left: 25%;
+  background-color: #095407;
+  border-radius: 10px;
+}

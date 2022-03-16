@@ -16,7 +16,10 @@ button {
   padding: var(--buttonPadding);
   border-radius: 10px;
   text-align: var(--buttonTextAlignment);
-  transition: border-radius 10px;
+  transition: border-radius 1000ms;
+  animation-name: buttonAnimation;
+  animation-direction: alternate-reverse;
+  animation-duration: 2500ms;
 }
 button:hover {
   border-radius: 10px;

@@ -18,7 +18,8 @@
   --pageTextAlignment: center;
   --pageFontFamily: Poppins;
   /******************/
-  --buttonBackgroundColor: #005325;
+  --buttonBackgroundColor: #005000;
+  --buttonBackgroundColorDarker: #002500;
   --buttonColor: white;
   --buttonPadding: 10px;
   --buttonFontFamily: Poppins;

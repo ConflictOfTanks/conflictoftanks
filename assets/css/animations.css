@@ -1,0 +1,8 @@
+@keyframes buttonAnimation {
+  from {
+    background-color: var(--buttonBackgroundColor);
+  }
+  to {
+    background-color: var(--buttonBackgroundColorDarker);
+  }
+}

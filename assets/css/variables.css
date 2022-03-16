@@ -4,6 +4,14 @@
 */
 
 :root {
+  --colorScheme1: #002500;
+  --colorScheme2: #005000;
+  --colorScheme3: #007500;
+  --colorScheme4: #00a000;
+  --colorScheme4: #00c500;
+  --colorScheme5: #00f000;
+  
+  /******************/
   --pageBackgroundColor: black;
   --pageColor: white;
   --pagePadding: 10%;

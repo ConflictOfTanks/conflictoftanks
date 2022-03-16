@@ -27,16 +27,18 @@ h1, h2, h3, h4, h5, h6 {
 }
 input {
   background-color: var(--inputBackgroundColor);
+  background-color: var(--inputBackgroundColor);
   border: none;
   border-radius: 5px;
   padding: 10px;
-  border-width: #ff0000;
+  border-width: 5px;
   color: var(--inputColor);
-  transition: background-color 1s, border-radius 2s;
+  transition: background-color 1s, border-radius 2s, border-color 3s;
 }
 input:hover, input:active, input:focus {
   background-color: #2d872c;
   border-radius: 100px;
+  border-color: var(--colorScheme3)
 }
 input:placeholder {
   color: white;

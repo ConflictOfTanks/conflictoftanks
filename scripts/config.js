@@ -1,7 +1,7 @@
 var gameTitle = "Conflict of Tanks.io";
 var gameDescription = "War of Tanks.io is a competitive game! Compete with other tanks to obtain victory!";
-var playButton = "PLAY!";
-var loginButton = "LOGIN!";
+var playButtonText = "PLAY!";
+var loginButtonText = "LOGIN!";
 var gameDownText = "Game is currently under maintenance. Check us on <a href='/discord.html'>Discord</a> for more information!";
 var playerBanText = "This player has been banned.";
 var consoleHackWarning = "%c Please do not paste scripts from the internet. Hacking the game is against rules, and you might as well get banned from the game. There's a chance that you might get hacked instead if someone told you to paste something here.";

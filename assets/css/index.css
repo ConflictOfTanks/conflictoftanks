@@ -2,6 +2,9 @@
   font-family: Poppins;
   outline: none;
 }
+::selection {
+  background-color: var(--colorScheme4);
+}
 body {
   background-color: var(--pageBackgroundColor);
   color: var(--pageColor);

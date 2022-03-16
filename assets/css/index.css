@@ -23,7 +23,7 @@ button {
   animation-iteration-count: infinite;
 }
 button:hover {
-  border-radius: 10px;
+  border-radius: 30px;
 }
 h1, h2, h3, h4, h5, h6 {
   font-family: var(--headingFontFamily);
@@ -33,7 +33,7 @@ input {
   background-color: var(--inputBackgroundColor);
   background-color: var(--inputBackgroundColor);
   border: none;
-  border-radius: 5px;
+  border-radius: var(--borderRadius1);
   padding: 10px;
   border-width: 5px;
   color: var(--inputColor);
@@ -41,8 +41,8 @@ input {
 }
 input:hover, input:active, input:focus {
   background-color: #2d872c;
-  border-radius: 100px;
-  border-color: var(--colorScheme3)
+  border-radius: var(--borderRadiusFull);
+  border-color: var(--colorScheme3);
 }
 input:placeholder {
   color: white;
@@ -62,8 +62,7 @@ div#login-popup {
   width: 50%;
   height: 50%;
   top: 25%;
-  margin-left: auto;
-  margin-right: auto;
+  left: 25%;
   background-color: #095407;
-  border-radius: 10px;
+  border-radius: var(--borderRadius1);
 }

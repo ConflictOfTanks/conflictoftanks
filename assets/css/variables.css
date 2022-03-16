@@ -10,7 +10,9 @@
   --colorScheme4: #00a000;
   --colorScheme4: #00c500;
   --colorScheme5: #00f000;
-  
+  /******************/
+  --borderRadius1: 10px;
+  --borderRadiusFull: 1000px;
   /******************/
   --pageBackgroundColor: black;
   --pageColor: white;

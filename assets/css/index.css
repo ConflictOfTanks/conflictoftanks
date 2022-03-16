@@ -20,6 +20,7 @@ button {
   animation-name: buttonAnimation;
   animation-direction: alternate-reverse;
   animation-duration: 2500ms;
+  animation-iteration-count: infinite;
 }
 button:hover {
   border-radius: 10px;

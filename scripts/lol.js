@@ -2,7 +2,7 @@
 // thank Fun X Time for making a cringe js file pls thx lmao
 
 // Conflict of FunXTime VS. Akari = COFVA
-var lmaoNicknames = document.getElementById("playerName");
+var lmaoNickname = document.getElementById("playerName");
 var lmaoNameThingy = "COFVA";
 var thisTimeLowercase = "cofva";
 var thisTimeNoobMobilePlayers = "Cofva";

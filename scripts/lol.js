@@ -8,9 +8,9 @@ var thisTimeLowercase = "cofva";
 var thisTimeNoobMobilePlayers = "Cofva";
 
 // lInEs YeS
-var lmao_line1 = "funxtime";
-var lmao_line2 = "vs";
-var lmao_line3 = "akari";
+var lmao_line1 = "funxtime<br>";
+var lmao_line2 = "vs<br>";
+var lmao_line3 = "akari<br>";
 
 
 function play() {

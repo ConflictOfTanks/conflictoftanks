@@ -17,4 +17,7 @@ function play() {
   if (lmaoNickname == lmaoNameThingy || lmaoNickname == thisTimeLowercase || lmaoNickname == thisTimeNoobMobilePlayers) {
     document.write(lmao_line1 + lmao_line2 + lmao_line3);
   }
+  if (lmaoNickname == "#iLoveFunxtime") {
+    document.write("whoever picked this name, I <b>MIGHT</b> love you too");
+  }
 }

@@ -1,8 +1,9 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Conflict of Tanks.io is a competitive game! Earn orbs, grow bigger, and dominate your opponents! ">
+    <meta name="description" content="Conflict of Tanks.io is a competitive game! Earn XP, grow bigger, and dominate your opponents!">
     <meta name="canonical" content="https://conflictoftanksio.tk">
   <meta>
     <meta name="copyright" content="Conflict of Tanks">
@@ -22,9 +23,7 @@
     <link href="/assets/css/animations.css" rel="stylesheet" type="text/css" />
     <link href="/assets/css/variables.css" rel="stylesheet" type="text/css" />
     <script src="/scripts/index.js"></script>
-    <script src="/scripts/elements.js"></script>
     <script src="/scripts/config.js"></script>
-    <script src="/scripts/definitions.js"></script>
     <script src="/scripts/variants.js"></script>
     <script src="/scripts/accounts.js"></script>
     <script async src="https://arc.io/widget.min.js#2UV2S5xj"></script>
@@ -32,7 +31,7 @@
   
   <body onload="loadConfig('100')" id="body" class="body">
     <div id="player-info" class="player-info">
-      <h1 id="homepageTitle"></h1>
+      <h1 id="homepageTitle">Loading...</h1>
       <input id="playerName" text-align="center" placeholder="Enter Nickname" maxlength="20"></input>
       <button id="playButton" onclick="play()">...</button>
       <button id="loginButton" onclick="displayPopup('login')">...</button>
@@ -40,12 +39,12 @@
       <br>
     
     <div id="dark-wrapper" style="background-color:black;opacity:50%;width:100%;height:100%;position:absolute;top:-2.5px;left:-2.5px;"></div> 
-    <div id="login-popup">
+    <div id="signup-popup">
       <form>
         <label class="account-input-label">
           Username
         </label>
-        <input type="text" class="account-input" maxlength="20" >  
+        <input id="username" type="text" class="account-input" maxlength="20" >  
         </input>
         <br>
         <br>
@@ -53,11 +52,11 @@
         <label class="account-input-label">
           Password 
         </label>
-        <input type="password">
+        <input id="password" type="password">
         </input>
         <br>
         <br>
-        <button id="forgotPassword" onclick="account('forgot', 'password')">Forgot Password</button>
+        
       </form>
     </div>
 

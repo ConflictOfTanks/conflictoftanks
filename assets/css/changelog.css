@@ -7,12 +7,12 @@
 */ 
 
 .changelog-item-heading {
-  font-size: 48px;
+  font-size: 32px;
   font-family: Montserrat;
   font-weight: 900;
 }
 .changelog-item-version {
-  font-size: 48px;
+  font-size: 32px;
   font-family: Montserrat;
   font-weight: 900;
   color: var(--colorScheme6);

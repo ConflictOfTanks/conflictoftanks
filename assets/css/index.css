@@ -2,7 +2,8 @@
   font-family: Poppins;
   outline: none;
 }
-::selection {
+::selection,
+::-moz-selection {
   background-color: var(--colorScheme4);
 }
 body {
@@ -24,6 +25,18 @@ button {
   animation-direction: alternate-reverse;
   animation-duration: 2500ms;
   animation-iteration-count: infinite;
+  -webkit-animation-name: buttonAnimation;
+  -webkit-animation-direction: alternate-reverse;
+  -webkit-animation-duration: 2500ms;
+  -webkit-animation-iteration-count: infinite;
+  -moz-animation-name: buttonAnimation;
+  -moz-animation-direction: alternate-reverse;
+  -moz-animation-duration: 2500ms;
+  -moz-animation-iteration-count: infinite;
+  -o-animation-name: buttonAnimation;
+  -o-animation-direction: alternate-reverse;
+  -o-animation-duration: 2500ms;
+  -o-animation-iteration-count: infinite;
 }
 button:hover {
   border-radius: 30px;
@@ -34,16 +47,15 @@ h1, h2, h3, h4, h5, h6 {
 }
 input {
   background-color: var(--inputBackgroundColor);
-  background-color: var(--inputBackgroundColor);
   border: none;
   border-radius: var(--borderRadius1);
   padding: 10px;
   border-width: 5px;
   color: var(--inputColor);
-  transition: background-color 1s, border-radius 2s, border-color 3s;
+  transition: background-color 2.5s, border-radius 2.5s, border-color 2.5s;
 }
 input:hover, input:active, input:focus {
-  background-color: #2d872c;
+  background-color: var(--inputBackgroundColorLighter);
   border-radius: var(--borderRadiusFull);
   border-color: var(--colorScheme3);
 }
@@ -66,6 +78,9 @@ div#login-popup {
   height: 50%;
   top: 25%;
   left: 25%;
-  background-color: #095407;
+  background-color: var(--colorScheme1);
   border-radius: var(--borderRadius1);
+  overflow: auto;
+  overflow-y: auto;
+  overflow-x: auto;
 }

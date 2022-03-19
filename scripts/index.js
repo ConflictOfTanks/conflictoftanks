@@ -14,3 +14,13 @@ function cnsl(cmd) {
     console.log("%c Commands:", "background-color:blue;color:white;font-size:30px;");
   }
 }
+
+document.getElementById("dark-wrapper").addEventListener("click", function(){
+  document.getElementById("login-popup").style.display = "none";
+  document.getElementById("dark-wrapper").style.display = "none";
+});
+
+function closePopups() {
+  document.getElementById("login-popup").style.display = "none";
+  document.getElementById("dark-wrapper").style.display = "none";
+}

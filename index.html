@@ -42,7 +42,7 @@
     
     <div id="dark-wrapper" style="background-color:black;opacity:50%;width:100%;height:100%;position:absolute;top:-2.5px;left:-2.5px;"></div> 
     <div id="login-popup">
-      <button id="closeButton" onclick="closePopups('login')" style="float: right" conflictoftanks="button.noAnimate">
+      <button id="closeButton" onclick="closePopups('login')" style="float: right; background-color: transparent;" conflictoftanks="button.noAnimate">
 <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 0 24 24" width="24px" fill="#FFFFFF"><path d="M0 0h24v24H0V0z" fill="none"/><path d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41z"/></svg></button>
       <h1>Login</h1>
       <form>
@@ -55,7 +55,7 @@
         <br>
         <br>
         <label class="account-input-label">
-          Password 
+          Password
         </label>
         <input id="password" type="password">
         </input>
@@ -66,15 +66,18 @@
       </form>
     </div>
 
+    <div id="">
+      
+    </div>
+
     <div id="changelog" class="changelog" conflictoftanks="changelog">
       <div id="changelog-item1" class="changelog-item" conflictoftanks="changelog.item.1">
         <p class="changelog-item-heading" conflictoftanks="changelog.item.1.heading">
-          <span class="changelog-item-version" conflictoftanks="changelog.item.1.version">0.0.0.0.0.0.0.0.0</span>
-          Changelog
-          ---
+          <span class="changelog-item-version" conflictoftanks="changelog.item.1.version">0.0.0</span>
+          Example Heading
         </p>
         <p class="changelog-item-description" conflictoftanks="changelog.item.1.description"> 
-        bruh no changes </p>
+        Example changelog item. This is the description. Changelogs will be filled once the game is ready. Version format: major.minor.bug-fix (e.g. 6.9.6)</p>
        
       </div>
     </div>

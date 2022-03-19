@@ -17,7 +17,7 @@ button:not([conflictoftanks="button.noAnimate"]) {
   background-color: var(--buttonBackgroundColor);
   color: var(--buttonColor);
   font-family: var(--buttonFontFamily);
-  font-size: 10px;
+  font-size: 16px;
   padding: var(--buttonPadding);
   border-radius: 10px;
   text-align: var(--buttonTextAlignment);
@@ -39,7 +39,17 @@ button:not([conflictoftanks="button.noAnimate"]) {
   -o-animation-duration: 2500ms;
   -o-animation-iteration-count: infinite;
 }
-button[conflictoftanks="button.noAi"]
+button[conflictoftanks="button.noAnimate"] {
+  border: none;
+  background-color: var(--buttonBackgroundColor);
+  color: var(--buttonColor);
+  font-family: var(--buttonFontFamily);
+  font-size: 10px;
+  padding: var(--buttonPadding);
+  border-radius: 10px;
+  text-align: var(--buttonTextAlignment);
+  transition: border-radius 1000ms;
+}
 button:hover {
   border-radius: 30px;
 }

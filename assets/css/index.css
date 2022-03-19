@@ -11,7 +11,8 @@ body {
   color: var(--pageColor);
   text-align: var(--pageTextAlignment);
 }
-button {
+
+button:not([conflictoftanks="button.noAnimate"]) {
   border: none;
   background-color: var(--buttonBackgroundColor);
   color: var(--buttonColor);
@@ -38,6 +39,7 @@ button {
   -o-animation-duration: 2500ms;
   -o-animation-iteration-count: infinite;
 }
+button[conflictoftanks="button.noAi"]
 button:hover {
   border-radius: 30px;
 }
@@ -59,7 +61,7 @@ input:hover, input:active, input:focus {
   border-radius: var(--borderRadiusFull);
   border-color: var(--colorScheme3);
 }
-input:placeholder {
+input::placeholder {
   color: white;
 }
 a {

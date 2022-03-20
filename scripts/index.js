@@ -24,3 +24,7 @@ function closePopups() {
   document.getElementById("login-popup").style.display = "none";
   document.getElementById("dark-wrapper").style.display = "none";
 }
+
+function playGame() {
+	// Plays the game
+}

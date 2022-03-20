@@ -1,0 +1,37 @@
+/* 
+  [conflictoftanks="discord-box"]
+
+  [conflictoftanks="changelog"] / .changelog
+  [conflictoftanks="changelog.item.NUM"] / .changelog-item
+  [conflictoftanks="changelog.item.NUM.heading"] / .changelog-heading
+  [conflictoftanks="changelog.item.NUM.version"] / .changelog-version
+  [conflictoftanks="changelog.item.NUM.description"] / .changelog-description
+*/ 
+
+
+#changelog, #discord-box {
+  background-color: var(--colorScheme10);
+  border-radius: 5px;
+  width: 25%;
+  display: inline-block;
+  height: 75%;
+}
+.changelog-item-heading {
+  font-size: 32px;
+  font-family: Montserrat;
+  font-weight: 900;
+}
+.changelog-item-version {
+  font-size: 32px;
+  font-family: Montserrat;
+  font-weight: 900;
+  color: var(--colorScheme6);
+}
+.changelog-item {
+  background-color: var(--colorScheme11);
+  border-radius: 5px;
+  width: 85%;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 15%;
+}

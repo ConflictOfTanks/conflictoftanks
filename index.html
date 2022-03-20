@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!DOCTYPE html> <!-- hii -->
 <html>
   <head>
     <meta charset="UTF-8">
@@ -20,22 +20,26 @@
     <title>Conflict of Tanks!</title>
     <link href="/assets/css/index.css" rel="stylesheet" type="text/css" />
     <link href="/assets/css/imports.css" rel="stylesheet" type="text/css" />
-    <link href="/assets/css/changelog.css" rel="stylesheet" type="text/css" />
+    <link href="/assets/css/menu-cards.css" rel="stylesheet" type="text/css" />
     <link href="/assets/css/animations.css" rel="stylesheet" type="text/css" />
     <link href="/assets/css/variables.css" rel="stylesheet" type="text/css" />
     <script src="/scripts/index.js"></script>
     <script src="/scripts/config.js"></script>
     <script src="/scripts/variants.js"></script>
     <script src="/scripts/accounts.js"></script>
+    <script src="/scripts/widgetbot.js"></script>
     <script async src="https://arc.io/widget.min.js#2UV2S5xj"></script>
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   </head>
   
   <body onload="loadConfig('100')" id="body" class="body">
     <div id="player-info" class="player-info">
-      <h1 id="homepageTitle">Loading game...</h1>
+      <h1 id="homepageTitle">Loading Conflict of Tanks...</h1>
+      <h2 id="homepageDescrip">Welcome to Conflict of Tanks! Description will be updated shortly.</h2>
       <input id="playerName" text-align="center" placeholder="Enter Nickname" maxlength="20"></input>
-      <button id="playButton" onclick="play()">...</button>
+      <button id="playButton" onclick="play()">
+        <h1 id= "playtest">You pressed the play button! 10000 IQ! </h1>
+      </button>
       <button id="loginButton" onclick="displayPopup('login')">...</button>
       <br> 
       <br>
@@ -47,7 +51,7 @@
       <h1>Login</h1>
       <form>
         <label class="account-input-label">
-          Username
+          Enter Username Below
         </label>
         <input id="username" type="text" class="account-input" maxlength="20" >  
         </input>
@@ -55,7 +59,7 @@
         <br>
         <br>
         <label class="account-input-label">
-          Password
+          Enter Password Below
         </label>
         <input id="password" type="password">
         </input>
@@ -66,11 +70,7 @@
       </form>
     </div>
 
-    <div id="">
-      
-    </div>
-
-    <div id="changelog" class="changelog" conflictoftanks="changelog">
+    <div id="changelog" class="menucard" conflictoftanks="changelog">
       <div id="changelog-item1" class="changelog-item" conflictoftanks="changelog.item.1">
         <p class="changelog-item-heading" conflictoftanks="changelog.item.1.heading">
           <span class="changelog-item-version" conflictoftanks="changelog.item.1.version">0.0.0</span>
@@ -78,10 +78,25 @@
         </p>
         <p class="changelog-item-description" conflictoftanks="changelog.item.1.description"> 
         Example changelog item. This is the description. Changelogs will be filled once the game is ready. Version format: major.minor.bug-fix (e.g. 6.9.6)</p>
-       
       </div>
     </div>
 
+    <div id="discord-box" class="menucard" conflictoftanks="discord-box">
+      <h1>Hit us on discord!</h1>
+      <a href="/discord.html">Discord Server</a>
+      <button onclick="widgetbot('toggle', 'true')">Quickchat on Discord</button>
+    </div>
+
+    <script src='https://cdn.jsdelivr.net/npm/@widgetbot/crate@3' async defer>
+      new Crate({
+        server: '951245147541241876', // Conflict Of Tanks
+        channel: '951254499836690522' // #general
+      });
+
+      widgetbot('notify', '**Hi!**', 2000);
+      widgetbot('notify', 'You can talk with other players here!', 3000);
+    </script>
+      
     <script src="/scripts/lol.js"></script>
   </body>
 </html>

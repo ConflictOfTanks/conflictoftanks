@@ -15,14 +15,13 @@ function cnsl(cmd) {
   }
 }
 
-document.getElementById("dark-wrapper").addEventListener("click", function(){
-  document.getElementById("login-popup").style.display = "none";
-  document.getElementById("dark-wrapper").style.display = "none";
-});
+var darkwrapper = darkwrapper.getElementById("dark-wrapper");
 
-function closePopups() {
-  document.getElementById("login-popup").style.display = "none";
-  document.getElementById("dark-wrapper").style.display = "none";
+if (darkwrapper) {
+	addEventListener("click", function(){
+	  document.getElementById("login-popup").style.display = "none";
+	  document.getElementById("dark-wrapper").style.display = "none";
+	});
 }
 
 function playGame() {

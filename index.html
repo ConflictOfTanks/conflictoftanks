@@ -17,7 +17,7 @@
     <meta name="web-author" content="Conflict of Tanks.io">
     <meta name="robots" content= "index, follow"></meta>
     <meta name="theme-color" content="#005000">
-    <title>Conflict of Tanks!</title>
+    <title>Conflict of Tanks</title>
     <link href="/assets/css/index.css" rel="stylesheet" type="text/css" />
     <link href="/assets/css/imports.css" rel="stylesheet" type="text/css" />
     <link href="/assets/css/menu-cards.css" rel="stylesheet" type="text/css" />
@@ -35,10 +35,10 @@
   <body onload="loadConfig('100')" id="body" class="body">
     <div id="player-info" class="player-info">
       <h1 id="homepageTitle">Loading Conflict of Tanks...</h1>
-      <h2 id="homepageDescrip">Welcome to Conflict of Tanks! Description will be updated shortly.</h2>
+      <h2 id="homepageDescrip">Welcome to Conflict of Tanks! Description will be updated shortly...</h2>
       <input id="playerName" text-align="center" placeholder="Enter Nickname" maxlength="20"></input>
       <button id="playButton" onclick="play()">
-        <h1 id= "playtest">You pressed the play button! 10000 IQ! </h1>
+        <h1 id= "playtest">You pressed the play button! 10000 IQ! It used failure! It doesn't work!</h1>
       </button>
       <button id="loginButton" onclick="displayPopup('login')">...</button>
       <br> 
@@ -73,8 +73,8 @@
     <div id="changelog" class="menucard" conflictoftanks="changelog">
       <div id="changelog-item1" class="changelog-item" conflictoftanks="changelog.item.1">
         <p class="changelog-item-heading" conflictoftanks="changelog.item.1.heading">
-          <span class="changelog-item-version" conflictoftanks="changelog.item.1.version">0.0.0</span>
-          Example Heading
+          <span class="changelog-item-version" conflictoftanks="changelog.item.1.version">Version 0.0.0</span>
+          Changelog
         </p>
         <p class="changelog-item-description" conflictoftanks="changelog.item.1.description"> 
         Example changelog item. This is the description. Changelogs will be filled once the game is ready. Version format: major.minor.bug-fix (e.g. 6.9.6)</p>
@@ -82,7 +82,7 @@
     </div>
 
     <div id="discord-box" class="menucard" conflictoftanks="discord-box">
-      <h1>Hit us on discord!</h1>
+      <h3>Hit us on Discord!</h3>
       <a href="/discord.html">Discord Server</a>
       <button onclick="widgetbot('toggle', 'true')">Quickchat on Discord</button>
     </div>
@@ -98,5 +98,6 @@
     </script>
       
     <script src="/scripts/lol.js"></script>
+    <button id="infoButton" onclick="displayPopup('Team')">Team</button>
   </body>
 </html>

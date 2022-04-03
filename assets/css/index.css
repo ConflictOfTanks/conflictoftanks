@@ -95,4 +95,12 @@ div#login-popup {
   overflow: auto;
   overflow-y: auto;
   overflow-x: auto;
+
+  .close {
+  position: absolute;
+  right: 25px;
+  top: 0;
+  color: #000;
+  font-size: 35px;
+  font-weight: bold;
 }
